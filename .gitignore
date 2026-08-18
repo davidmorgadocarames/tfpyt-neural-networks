@@ -1,0 +1,17 @@
+# Modelos entrenados (binarios grandes, regenerables ejecutando los scripts)
+*.keras
+*.h5
+
+# Cachés de datasets descargados
+.keras/
+*.npz
+
+# Entornos y artefactos de Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Gradio
+.gradio/
+.ipynb_checkpoints/

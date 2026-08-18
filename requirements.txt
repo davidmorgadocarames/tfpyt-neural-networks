@@ -1,0 +1,12 @@
+tensorflow==2.21.0
+matplotlib==3.10.7
+numpy==2.3.5
+scikit-learn==1.8.0
+gradio==6.19.0
+pillow==11.3.0
+torch==2.7.1
+torchvision==0.22.1
+# torch/torchvision instalados con soporte CUDA 11.8 (indice de PyPI de PyTorch):
+# pip install torch==2.7.1 torchvision==0.22.1 --index-url https://download.pytorch.org/whl/cu118
+# El "pip install -r requirements.txt" normal instala la build CPU-only de torch, que tambien
+# funciona (mas lenta) -- ver sgd_vs_adam_*_torch*.py, todos corren en CPU si no hay CUDA.
