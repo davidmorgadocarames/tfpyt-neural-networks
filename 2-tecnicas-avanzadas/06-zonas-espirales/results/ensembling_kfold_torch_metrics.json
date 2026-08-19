@@ -1,0 +1,45 @@
+{
+  "k_folds": 5,
+  "device": "cuda",
+  "seed_split_final": 0,
+  "seed_kfold": 0,
+  "seed_modelo": 0,
+  "n_pool": 360,
+  "n_test_final": 90,
+  "accuracies_por_fold_val": [
+    1.0,
+    1.0,
+    0.9583333134651184,
+    0.9861111044883728,
+    0.944444477558136
+  ],
+  "media_fold_val": 0.9777777791023254,
+  "desviacion_fold_val": 0.02256676649851377,
+  "accuracies_individuales_test_final": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "media_individual_test_final": 1.0,
+  "accuracy_ensemble_test_final": 1.0,
+  "tiempo_computacion_segundos": 6.0382912158966064,
+  "matriz_confusion_ensemble": [
+    [
+      30,
+      0,
+      0
+    ],
+    [
+      0,
+      30,
+      0
+    ],
+    [
+      0,
+      0,
+      30
+    ]
+  ]
+}

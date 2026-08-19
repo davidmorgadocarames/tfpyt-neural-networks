@@ -1,0 +1,44 @@
+{
+  "k_folds": 5,
+  "seed_split_final": 0,
+  "seed_kfold": 0,
+  "seed_modelo": 0,
+  "n_pool": 360,
+  "n_test_final": 90,
+  "accuracies_por_fold_val": [
+    1.0,
+    1.0,
+    0.9583333134651184,
+    0.9861111044883728,
+    0.9583333134651184
+  ],
+  "media_fold_val": 0.9805555462837219,
+  "desviacion_fold_val": 0.01883981449220062,
+  "accuracies_individuales_test_final": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "media_individual_test_final": 1.0,
+  "accuracy_ensemble_test_final": 1.0,
+  "tiempo_computacion_segundos": 491.89718866348267,
+  "matriz_confusion_ensemble": [
+    [
+      30,
+      0,
+      0
+    ],
+    [
+      0,
+      30,
+      0
+    ],
+    [
+      0,
+      0,
+      30
+    ]
+  ]
+}

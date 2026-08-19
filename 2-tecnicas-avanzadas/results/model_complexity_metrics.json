@@ -1,0 +1,64 @@
+{
+  "resultados": [
+    {
+      "nombre": "03-tipos-clientes (Keras)",
+      "framework": "keras",
+      "parametros": 33,
+      "flops_forward": 58
+    },
+    {
+      "nombre": "03-tipos-clientes (PyTorch)",
+      "framework": "pytorch",
+      "parametros": 33,
+      "flops_forward": 58
+    },
+    {
+      "nombre": "04-temperatura-dia-noche (Keras)",
+      "framework": "keras",
+      "parametros": 4897,
+      "flops_forward": 27185
+    },
+    {
+      "nombre": "04-temperatura-dia-noche (PyTorch)",
+      "framework": "pytorch",
+      "parametros": 5025,
+      "flops_forward": 27185
+    },
+    {
+      "nombre": "06-zonas-espirales (Keras)",
+      "framework": "keras",
+      "parametros": 4547,
+      "flops_forward": 8963
+    },
+    {
+      "nombre": "06-zonas-espirales (PyTorch)",
+      "framework": "pytorch",
+      "parametros": 4547,
+      "flops_forward": 8963
+    },
+    {
+      "nombre": "07-reconocimiento-digitos (Keras)",
+      "framework": "keras",
+      "parametros": 102282,
+      "flops_forward": 203914
+    },
+    {
+      "nombre": "07-reconocimiento-digitos (PyTorch)",
+      "framework": "pytorch",
+      "parametros": 102026,
+      "flops_forward": 203914
+    },
+    {
+      "nombre": "08-cnn-fashion-mnist (Keras)",
+      "framework": "keras",
+      "parametros": 422538,
+      "flops_forward": 8671114
+    },
+    {
+      "nombre": "08-cnn-fashion-mnist (PyTorch)",
+      "framework": "pytorch",
+      "parametros": 422090,
+      "flops_forward": 8671114
+    }
+  ]
+}
